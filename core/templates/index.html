@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StartPoint Ventures</title>
+    <!-- Favicon -->
+    {% load static %}
+    <link rel="icon" href="{% static 'images/favicon.ico' %}">
+    <!-- CSS -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color: #333;
+        }
+        header {
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        header h1 {
+            font-size: 2.5em;
+            color: #4facfe;
+            margin: 0;
+        }
+        main {
+            text-align: center;
+            padding: 50px;
+        }
+        main h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #ffffff;
+        }
+        main p {
+            font-size: 1.2em;
+            color: #e0f7fa;
+        }
+        footer {
+            margin-top: 50px;
+            text-align: center;
+            padding: 10px;
+            background-color: #ffffff;
+            color: #4facfe;
+        }
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: #ffffff;
+            background-color: #007bff;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>StartPoint Ventures</h1>
+    </header>
+    <main>
+        <h2>Welcome to the Future</h2>
+        <p>Explore the unknown and shape the future with StartPoint Ventures.</p>
+        <a href="/dashboard" class="button">Get Started</a>
+    </main>
+    <footer>
+        <p>&copy; 2025 StartPoint Ventures. All rights reserved.</p>
+    </footer>
+</body>
+</html>
